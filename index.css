@@ -1,253 +1,252 @@
-
 #title {
-    font-family: 'Figtree';
-    font-size: 50px;
-      margin-top: -20px;
-  }
-  h3 {
-    font-size:30px;
-    font-family:'Figtree';
-    display:flex; 
-      top: 10px;
-  }
-  main {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: -10px;
-    margin-bottom: 10px;
-    font-family: 'Antic Didone';
-    font-size: 18px;
-    line-height: 26px; 
-  }
-  #b {
-    color: black;
-  }
-  #b:hover {
-    color: #FF69B4;
-  }
-  header { 
-    color: white;
-    height: 340px;
-    background-image: url(https://mcusercontent.com/916b5692e890389a3707c94e7/images/82b5d960-7d19-f9fc-8ec9-ee2e1e5bdcbc.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  #title {
-    position: static;
-  }
-  nav {
-    text-align: center;
-    line-height: 3em;
-    margin-top:10px;
-    font-family:'Figtree';
-      text-color: white;
-  }
-  
-  /* The following adds space between each navigation button */
-  .navH3 {
-    padding: 6px; 
-  }
-  a {
-    color: white;
-    
-  }
-  a:hover {
-    color: pink;
-  }
-  #about {
-    font-size: 28px;
-    color: black;
-  }
-  
-  #top {
-    font-size: 28px;
-  }
-  
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  img {
-    vertical-align: middle;
-  }
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .container {
-    position: relative;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 25px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color:  #f2f2f2;
-    font-size: 18px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: black;
-    padding: 5px 16px;
-    color: white;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
-  /* transparency effect on images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
-  
-  #alex {
-     display: block;
-    margin-top: 5px;
-    margin-bottom: 30px;
-  }
-  
-  img, .character {
-     max-width: 100%;
-  }
-  h2 {
-    margin-top:30px;
-  }
-  * {
-    box-sizing: border-box;
-  }
-  #fanta {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 40px;
-  }
-  img, .soda {
-    max-width: 100%;
-  }
-  .sticker {
-    float: left;
-    width: 45%;
-    padding: -1px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  #top_nav {
-    color:black;
-  }
-  #project4 {
-    margin-bottom:px;
-  }
-  .backToTop {
-    color: black;
-  }
-  text, .please {
-    font-color: black;
-  }
-  #please:hover {
-    color: #FF69B4;
-  }
-  #web {
-     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: px;
-    border: #000000 6px solid;
-  }
-    img, .pink {
-    max-width: 100%;
-  }
-  footer {
-     height: 200px;
-    background-image: url(https://mcusercontent.com/916b5692e890389a3707c94e7/images/82b5d960-7d19-f9fc-8ec9-ee2e1e5bdcbc.jpg);
-    background-position: bottom;
-     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  
-  * {
-    box-sizing: border-box;
-    
-  }
-  
-  .column {
-    align-items: center; 
-    float: center;
-    padding-left: 10px;
-    margin-top:40px;
-    margin-left:100px;
-    max-width: 100%;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    max-width: 100%;
-    display: table;
-  }
+  font-family: "Figtree";
+  font-size: 50px;
+  margin-top: -20px;
+}
+h3 {
+  font-size: 30px;
+  font-family: "Figtree";
+  display: flex;
+  top: 10px;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: "Antic Didone";
+  font-size: 18px;
+  line-height: 26px;
+}
+#b {
+  color: black;
+}
+#b:hover {
+  color: #ff69b4;
+}
+header {
+  color: white;
+  height: 340px;
+  background-image: url(https://mcusercontent.com/916b5692e890389a3707c94e7/images/82b5d960-7d19-f9fc-8ec9-ee2e1e5bdcbc.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#title {
+  position: static;
+}
+nav {
+  text-align: center;
+  line-height: 3em;
+  margin-top: 10px;
+  font-family: "Figtree";
+  text-color: white;
+}
+
+/* The following adds space between each navigation button */
+.navH3 {
+  padding: 6px;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: pink;
+}
+#about {
+  font-size: 28px;
+  color: black;
+}
+
+#top {
+  font-size: 28px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 5px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* transparency effect on images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+#alex {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+img,
+.character {
+  max-width: 100%;
+}
+h2 {
+  margin-top: 30px;
+}
+* {
+  box-sizing: border-box;
+}
+#fanta {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+img,
+.soda {
+  max-width: 100%;
+}
+.sticker {
+  float: left;
+  width: 45%;
+  padding: -1px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#top_nav {
+  color: black;
+}
+#project4 {
+  margin-bottom: px;
+}
+.backToTop {
+  color: black;
+}
+text,
+.please {
+  font-color: black;
+}
+#please:hover {
+  color: #ff69b4;
+}
+#web {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: px;
+  border: #000000 6px solid;
+}
+img,
+.pink {
+  max-width: 100%;
+}
+footer {
+  height: 200px;
+  background-image: url(https://mcusercontent.com/916b5692e890389a3707c94e7/images/82b5d960-7d19-f9fc-8ec9-ee2e1e5bdcbc.jpg);
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  align-items: center;
+  float: center;
+  padding-left: 10px;
+  margin-top: 40px;
+  margin-left: 100px;
+  max-width: 100%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  max-width: 100%;
+  display: table;
+}
