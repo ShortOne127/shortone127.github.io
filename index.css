@@ -1,14 +1,10 @@
 #title {
   font-family: "Figtree";
-  font-size: 50px;
-  margin-top: -20px;
+  font-size: 40px;
+  margin-top: 50px;
+  text-align: center;
 }
-h3 {
-  font-size: 30px;
-  font-family: "Figtree";
-  display: flex;
-  top: 10px;
-}
+
 main {
   width: 80%;
   margin: 0 auto;
@@ -22,7 +18,7 @@ main {
   color: black;
 }
 #b:hover {
-  color: #ff69b4;
+  color: #f05ca6;
 }
 header {
   color: white;
