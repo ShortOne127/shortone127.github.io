@@ -163,9 +163,7 @@ img,
 h2 {
   margin-top: 30px;
 }
-* {
-  box-sizing: border-box;
-}
+
 #fanta {
   display: block;
   margin-left: auto;
